@@ -57,14 +57,41 @@ a.btn-cta-cover {
 }
 
 section.we-are img {
-    width: 80%;
+    width: 100%;
 }
+
+section.we-are div.head-section {
+    background-color: #25ac71;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* div.garis-biru {
+    width: 50px;
+    height: 15px;
+    background-color: #FD8855;
+    border-radius: 500px;
+    margin-top: 4px;
+    margin-right: 15px;
+} */
 
 /* RESPONSIVE (DESKTOP) */
 @media (min-width: 992px) {
 
     section.section-cover {
         padding-top: 150px;
+    }
+
+    section.we-are img {
+        width: 70%;
+    }
+
+    section.we-are div.head-section {
+        width: 25%;
     }
 
 }
