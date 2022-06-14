@@ -17,7 +17,7 @@ $.getJSON("https://api-alquranid.herokuapp.com/surah", function(data){
 let data = sessionStorage.getItem('somekey');
 // console.log(data);
 $.getJSON("https://api-alquranid.herokuapp.com/surah/"+data, function(data){
-    console.log(data.data[1]);
+    // console.log(data.data[1]);
 
     $.each(data.data, function(i, data){
         $('#body-detail-surah').append('<div class="mb-5"><h6 class="text-center fs-4 fw-bolder">'+ data.ar+'</h6><p class="mt-3 text-center">'+ data.tr +'</p><p class="mt-3 text-center">'+ data.id +'</p></div>');
